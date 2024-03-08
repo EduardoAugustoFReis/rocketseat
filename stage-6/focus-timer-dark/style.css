@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+main{
+  height: 100vh;
+  position: relative;
+}
+body{
+  background: white;
+}
+.screen1{
+  background-color: #fff;
+  visibility: visible;
+  opacity: 1;
+}
+.screen1.hide{
+  visibility: hidden;
+  opacity: 0;
+}
+.timer{
+  font-family: 'Roboto', sans-serif;
+  font-size: 7.0rem;
+  color: black;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  display: flex;
+}
+.controls{
+  position: absolute;
+  top: 340px;
+  left: 480px;
+
+  display: flex;
+  gap: 6px;
+}
+.card-sounds.line1{
+  position: absolute;
+  top: 200px;
+  left: 850px;
+
+  display: flex;
+  gap: 10px;
+}
+.card-sounds.line2{
+  position: absolute;
+  top: 360px;
+  left: 850px;
+
+  display: flex;
+  gap: 10px;
+}
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(1.1);
+}
+img:hover{
+  transform: scale(1.1);
+}
+.light-button{
+  position: absolute;
+  top: 30px;
+  left: 90%;
+}
+
+/*dark mode */
+
+.screen2{
+  visibility: visible;
+  opacity: 1;
+}
+.screen2.hide{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.timer.dark{
+  font-family: 'Roboto', sans-serif;
+  font-size: 7.0rem;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  display: flex;
+}
+
+.controls-dark{
+  position: absolute;
+  top: 340px;
+  left: 480px;
+
+  display: flex;
+  gap: 6px;
+}
+
+.card-sounds.line1.dark{
+  position: absolute;
+  top: 200px;
+  left: 850px;
+
+  display: flex;
+  gap: 10px;
+}
+.card-sounds.line2.dark{
+  position: absolute;
+  top: 360px;
+  left: 850px;
+
+  display: flex;
+  gap: 10px;
+}
+.dark-button{
+  position: absolute;
+  top: 30px;
+  left: 90%;
+}
